@@ -16,13 +16,12 @@ a {
 body {
   margin: 0 auto;
   padding: 0;
-  width: 1920px;
-}
+  width: 100%;
 
 .nav-primary {
   display: flex;
   justify-content: space-around;
-  margin: 11.5px 0px;
+  margin: 11px 0px;
 }
 
 .container {
@@ -77,7 +76,7 @@ body {
   width: 128px;
   height: 48px;
   border-radius: 8px;
-  padding: 12px, 20px, 12px, 20px;
+  padding: 12px, 20px
   font-size: 16px;
   font-weight: 600;
 }
@@ -105,14 +104,11 @@ section:nth-child(even) {
 }
 
 
-
 .cards .keyword {
   color: #3692FF;
   font-size: 18px;
   font-weight: 700;
 }
-
-
 
 
 .cards h1 {
@@ -127,7 +123,7 @@ section:nth-child(even) {
   font-weight: 500;
 }
 
-/* banner & footer */ 
+/* banner & footer h1 */ 
 
 .banner h1,
 .footer h1 {
@@ -144,7 +140,6 @@ section:nth-child(even) {
   align-items: flex-start;
   padding-top: 32px;
 
-
   border: 1px solid;
   background-color:  #111827;
   height: 160px;
@@ -153,7 +148,6 @@ section:nth-child(even) {
   font-weight: 400;
   color: #fff;
 }
-
 
 .bottom-left {
   color: #9CA3AF;
